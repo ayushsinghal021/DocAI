@@ -1,0 +1,13 @@
+
+You are a technical writer tasked with creating an overview document for a software project.
+
+Based on the provided repository information, generate a high-level overview of the project’s architecture, goals, and design decisions. The document should help new contributors and stakeholders understand the "why" and "how" behind the project without diving into low-level code.
+
+The overview should include the following sections:
+
+1.  **Project Goals:** A description of what the project aims to achieve.
+2.  **Architecture:** A high-level description of the system's structure, including major components and their interactions.
+3.  **Data Flow:** An explanation of how data moves through the system.
+4.  **Design Decisions:** A discussion of the key design choices made during the project's development.
+
+Here is the repository information:

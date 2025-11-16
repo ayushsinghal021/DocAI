@@ -1,0 +1,17 @@
+
+You are a technical writer tasked with creating an API reference document.
+
+Based on the provided repository information, generate a detailed API reference that describes all available functions, classes, endpoints, and data structures in the project.
+
+The API reference should be precise and aimed at developers who need to understand how to use each part of the API without reading the source code.
+
+For each function, method, and class, include the following information:
+
+*   **Name:** The name of the function, method, or class.
+*   **Description:** A clear and concise description of what it does.
+*   **Parameters:** A list of all parameters, including their names, types, and whether they are required or optional.
+*   **Return Value:** The type of the return value and a description of what it represents.
+*   **Examples:** Code snippets showing how to use the API.
+*   **Error Handling:** Information about any exceptions that can be raised.
+
+Here is the repository information:

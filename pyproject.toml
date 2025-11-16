@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docai"
+version = "0.1.0"
+description = "Automated documentation sync for Python projects on each git commit"
+authors = [{name = "Your Name"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+# Optional Gemini support. To use, `pip install docai[gemini]` and set GOOGLE_API_KEY.
+gemini = ["google-generativeai>=0.8.0"]
+
+[project.scripts]
+docai = "docai.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+packages = ["docai"]
+
+[tool.setuptools.package-data]
+docai = ["prompts/*.txt", "config.json"]
